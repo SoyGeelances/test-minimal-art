@@ -1,0 +1,41 @@
+
+@media only screen and (max-width: 1024px) {
+    .text-left {
+        width: 90%;
+    }
+
+    h2 {
+        font-size: 5vw;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .text-left {
+        width: 100%;
+        padding: 0px;
+    }
+
+    h2 {
+        font-size: 6vw;
+    }
+
+    .img-r {
+        padding: 15px;
+        margin: 0px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .slider-top {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    h2, p.p-slider  {
+        text-align: center;
+    }
+
+    .buttons-box {
+        justify-content: center;
+    }
+}

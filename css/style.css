@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300;400;500;600;700&display=swap');
+
+/*==================================
+* Author        : "Genesis"
+==================================== */
+
+/*==================================
+font-family: 'Lexend Deca', sans-serif;
+==================================== */
+
+
+/*=========== TABLE OF CONTENTS ===========
+1.  General css 
+2.  Slider
+3.  Phone
+==========================================*/
+
+
+
+body {
+    background: url(/assets/pattern.svg);
+    background-color:#e6468b;
+    font-family: 'Lexend Deca', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    color: #fff;
+}
+
+button {
+    padding: 12px 27px;
+    border-radius: 8px;
+    font-weight: 600;
+    border: 1px solid #fff;
+    margin: 5px;
+}
+
+
+/*-------------------------------------
+		1.Slider
+--------------------------------------*/
+
+.slider-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+    padding: 25px;
+}
+
+.text-left {
+    padding: 50px;
+    margin: 15px;
+    width: 35%;
+}
+
+.img-r {
+    padding: 30px;
+    margin: 15px;
+}
+
+.img-p { 
+	-webkit-filter: grayscale(100%); 
+	filter: grayscale(100%); 
+    opacity: 0.6;
+}
+
+h2 {
+    font-size: 4vw;
+    margin: 2% 0;
+    text-align: end;
+}
+
+p.p-slider {
+    font-size: 19px;
+    font-weight: 300;
+    text-align: end;
+    line-height: 27px;
+}
+
+.buttons-box {
+    display: flex;
+    justify-content: end;
+}
+
+.Butt-download {
+    background-color: #fff;
+    color: #e6468b;
+    border: none;
+}
+
+.butt-learM {
+    background-color: #e6468b;
+    color: #fff;
+}
+
+span.punt-p {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+/*-------------------------------------
+		3.Phone
+--------------------------------------*/
+
+.phone {
+    height: 435px;
+    border: 1px solid #ffffffed;
+    border-radius: 15px;
+}
+
+.child-d {
+    height: 3px;
+    width: 45px;
+    background: #ffffffe8;
+    border-radius: 9px;
+    margin: 10% auto;
+}
+
+.bott-p {
+    height: 30px;
+    width: 30px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin: 5% auto;
+}

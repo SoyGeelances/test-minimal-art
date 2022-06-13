@@ -1,2 +1,2 @@
 
-Prueba Técnida para MinimalArt
+Prueba Técnica para MinimalArt
